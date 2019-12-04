@@ -7,7 +7,7 @@ Different Cornell box scenes have been rendered for easy verification of all obj
 <img src="0.png" class="double">
 <img src="1.png" class="double">
 
-> Aliasing artifacts in the geometries are smoothed and vertex normals are interpolated for smooth shading.
+> Aliasing artifacts in the geometries are smoothed and vertex normals are interpolated for smooth shading. Lighting for the wine glass is a little strange because photons from the other side of the mesh are being collected.
 
 ## Photon Mapping (Building & Using), Reflection & Refraction
 <img src="3.png" class="double">
