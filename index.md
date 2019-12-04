@@ -27,7 +27,7 @@ Cores | Ray Tracing (ms) | Supersampling (ms)
 32 | 5052 | 2908
 64 | 2681 | 1858 
 
-![](../documentation/threading_data.png)
+![](threading_data.png)
 
 > Approximately linear in the number of cores. Timing data is obtained from rendering the Cornell box with ray tracing.
 
