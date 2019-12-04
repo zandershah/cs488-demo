@@ -7,13 +7,13 @@ Different Cornell box scenes have been rendered for easy verification of all obj
 <img src="0.png" class="double">
 <img src="1.png" class="double">
 
-> Aliasing artifacts in the geometries are smoothed and vertex normals are interpolated for smooth shading. Lighting for the wine glass is a little strange because photons from the other side of the mesh are being collected.
+> Aliasing artifacts are smoothed and vertex normals are interpolated for smooth shading. Lighting for the wine glass is a little strange because photons from the other side of the mesh are being collected.
 
 ## Photon Mapping (Building & Using), Reflection & Refraction
 <img src="3.png" class="double">
 <img src="4.png" class="double">
 
-> Photons are visualized [left] by illuminating a pixel if there is a photon within $2.5 \cdot 10^{-3}$ units away from the point of intersection. The neartest $500$ photons are collected [right] for lighting calculations.
+> Photons are visualized [left] by illuminating a pixel if there is a photon within $2.5 \cdot 10^{-3}$ units away from the point of intersection. The nearest $500$ photons are collected [right] for lighting calculations.
 
 ## Multithreading
 
