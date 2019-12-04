@@ -1,19 +1,19 @@
 Mountainside Lair
 =
 
-Different cornell box scenes have been rendered for an easy verification of all objectives. Some sets of test images showcase multiple objectives simultaneously as indicated by the title.
+Different Cornell box scenes have been rendered for easy verification of all objectives. Some sets of test images showcase multiple objectives as indicated by the title.
 
 ## Adaptive Anti-aliasing (Stochasic Sampling), Phong Shading
 <img src="0.png" class="double">
 <img src="1.png" class="double">
 
-> Aliasing artifacts in the geometries are smoothed, and vertex normals are interpolated for smooth shading.
+> Aliasing artifacts in the geometries are smoothed and vertex normals are interpolated for smooth shading.
 
 ## Photon Mapping (Building & Using), Reflection & Refraction
 <img src="3.png" class="double">
 <img src="4.png" class="double">
 
-> Photons are visualized [left] by illuminating a pixel if there is a photon within $2.5 \cdot 10^{-3}$ units away from the point of intersection. Photons are collected [right] for the lighting calculation, using the nearest $500$.
+> Photons are visualized [left] by illuminating a pixel if there is a photon within $2.5 \cdot 10^{-3}$ units away from the point of intersection. The neartest $500$ photons are collected [right] for lighting calculations.
 
 ## Multithreading
 
@@ -35,13 +35,13 @@ Cores | Ray Tracing (ms) | Supersampling (ms)
 <img src="5.png" class="double">
 <img src="6.png" class="double">
 
-> Mountains looked bad when bump mapped so instead I will show a bump mapped sphere. This is because they are scaled from the space they were generated in so the partial derivatives are wrong.
+> Mountains looked bad when bump mapped so I decided to show a bump mapped sphere instead. This is because they are scaled from the space they were generated in so the partial derivatives are wrong.
 
 ## Model Pine Trees & Supervillain's Lair, Static Scene (Mountains, Pine Trees, Supervillain's Lair, Water)
 
 ![](7.png)
 
-> Every technical objective plays an important part in the final scene.
+> Every objective plays an important part in the final scene.
 >
 > - **Adaptive Anti-aliasing** for a smoother image.
 > - **Refraction & Reflection** are used for the windows, wine, and water.

@@ -66,10 +66,12 @@ p {
 }
 
 img {
-  width: 90vw;
+  margin-left: 10vw;
+  width: 70vw;
 }
 
 img.double {
+  margin-left: 0;
   width: 44.5vw;
 }
 
